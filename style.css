@@ -1,0 +1,36 @@
+/* Add your custom styles here */
+
+/* Basic reset */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  /* Tailwind CSS overrides */
+  .container {
+    max-width: 1200px;
+  }
+  
+  header {
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #2d3748;
+  }
+  
+  select, button {
+    outline: none;
+  }
+  
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3182ce;
+  }
+  
